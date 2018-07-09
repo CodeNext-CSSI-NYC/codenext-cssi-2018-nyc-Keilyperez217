@@ -9,11 +9,11 @@ const q = 60;
 const r = 25;
 
 // 1. Is 91 divisible by 13? (The answer should be either true or false)
-
+    console.job = (91 % 3==0);
 // 2. What is the result when the q divided by r is rounded to the nearest integer?
-
+    Math.round(q/r)
 // 3. Is the product of p and r greater than q squared? (The answer should be either true or false)
-
+    console.
 // 4. What is the remainder when the sum of q and r is divided by p?
 
 // 5. 27 squared is equal to what number raised to the third power?
