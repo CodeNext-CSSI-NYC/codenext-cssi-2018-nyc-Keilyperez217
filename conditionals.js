@@ -28,7 +28,7 @@
 
 
 // 3. Ask the user for a number and print whether it is odd or even
-      let d = readline.question("please enter a number ");
+      let d = readline.question("please enter a number:  ");
       if (d % 2 == 0){
         console.log("it is even");
 
@@ -52,6 +52,25 @@
 
 // 5. Ask the user to enter a year, and tell them if it was a leap year.
 // (You can use Google if you're not sure when leap years happen.)
+      let year = readline.question ("please enter a year ");
+      function leapYear(year){
+     var result;
+     year = parseInt(document.getElementById("isYear").value);
+     if (years/400){
+      result = true
+    }
+     else if(years/100){
+      result = false
+     }
+     else if(years/4){
+      result= true
+     }
+     else{
+       result= false
+     }
+     return result
+     console.log("it is a leap year")
+ }
 
 // 6. Ask the user if they have been a citizen for at least 9 years (yes or no), ask them their age, and ask if they live in New York state.
 // If they answer yes, their age is above 30, and yes, then tell them they can run for senate in NY. Otherwise, say that they cannot.
