@@ -6,7 +6,7 @@ console.log(true || false)
 // Your guess: true
 
 // 2.
-console.log(!true ||!false)
+console.log(!true || !false)
 // Your guess:true
 
 // 3.
@@ -19,25 +19,25 @@ console.log(true || false) && (true)
 
 // 5.
 console.log(true || (false && true)
-// Your guess:true
+    // Your guess:true
 
-// 6.
-console.log( (false || !false) && (true || !true)
-// Your guess: true
+    // 6.
+    console.log((false || !false) && (true || !true)
+      // Your guess: true
 
-// 7.
-console.log(!(false || !false || !true)
-// Your guess:false
+      // 7.
+      console.log(!(false || !false || !true)
+        // Your guess:false
 
-// 8.
-console.log(3 == "3" && 3 === "3")
-// Your guess:false
+        // 8.
+        console.log(3 == "3" && 3 === "3")
+        // Your guess:false
 
-// 9.
-console.log(> 12 / 5 == 2)
-// Your guess:false
+        // 9.
+        console.log( > 12 / 5 == 2)
+        // Your guess:false
 
-// 10.
-// let a = 1;
-console.log(2 == a++);
-// Your guess:false
+        // 10.
+        // let a = 1;
+        console.log(2 == a++);
+        // Your guess:false
