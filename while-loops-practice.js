@@ -1,18 +1,18 @@
 // 1a. Use a while loop to print out numbers from 1 to 10
 // 1b. Use a while loop to print out numbers from 30 to 15
 // var count = 1;
-// while (count <= 10) {
-//   console.log(count);
-//   count++;
-// }
-//
-//
-//
-// var number = 30;
-// while (number >= 15) {
-//   console.log(number);
-//   number--;
-// }
+while (count <= 10) {
+  console.log(count);
+  count++;
+}
+
+
+
+var number = 30;
+while (number >= 15) {
+  console.log(number);
+  number--;
+}
 
 // 2. Write a program that keeps rolling a die until the roll is a 5. Print out each roll.
 // If you haven't yet done so, you should run

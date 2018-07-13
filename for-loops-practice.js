@@ -1,27 +1,42 @@
 // 1a. Print out all of the numbers from 1 to 20 (using a loop).
 // 1b. Print out all of the numbers from 20 to 1 (using a loop).
-
-var number = "1234567891011121314151617181920"
-for (var i = 0; i < numbers.length; i++) {
-  console.log(numbers.charAt(i));
-}
+// for (var count = 1; count <= 20; count++) {
+//   console.log(count)
+//
+// }
+//
+//
+// for (var count = 20; count >= 1; count--) {
+//   console.log(count)
+// }
 // 2. Write a function that takes in a number and prints out all of the factors
 // of that number. For example, for 23 it will print 1 and 23. For 24, it will
 // print 1, 2, 3, 4, 6, 8, 12, 24. Recall that the factors of a number are all
 // the numbers it is divisible by (from 1 up to itself).
-// Make sure to test this with several numbers (including some huge ones from fun).
+// Make sure to test this  with several numbers (including some huge ones from fun).
 
 
 
 // 3. Print out all of the odd numbers between 300 and 350 (using a loop).
 
+function countOddNumbers() {
 
 
+  for (var i = 300; i <= 350; i++) {
+
+
+    if (i % 2 != 0) {
+      console.log("it is odd " + i);
+    }
+
+  }
+}
+countOddNumbers();
 // 4. Write a function that, given a string of any length,
 // returns true if it contains at least one space.
 // function containsSpace(str) {
 
-}
+
 // Some tests
 // console.log(containsSpace("star wars") == true);
 // console.log(containsSpace("     ") == true);
