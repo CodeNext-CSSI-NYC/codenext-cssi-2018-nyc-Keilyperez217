@@ -26,11 +26,18 @@ console.log(array)
 
 
 // 2a. Create an array with five items.
-var items = []
-// Without using a for loop, print out each item in the array, one at a time.
+var items = ["red", "blue", "green", "orange", "pink"]
+console.log(items[0])
+console.log(items[1])
+console.log(items[2])
+console.log(items[3])
+console.log(items[4])
+// Without using a
+// for loop, print out each item in the array, one at a time.
 // Do NOT just print out the whole array with a command like console.log(arr).
 // Make sure you actually print out each item in the array one at a time.
-// What if there were 100 items in the array? 1000?
+// What
+// if there were 100 items in the array ? 1000 ?
 
 
 
@@ -39,19 +46,29 @@ var items = []
 // What if you needed to add 100 items to the array, or 1000?
 // Hopefully these examples illustrate how helpful for loops can be.
 
-
-
+var a = []
+a.push("pen")
+a.push("pencil")
+a.push("pizza")
+console.log(a)
 // 3. Make a new empty array.
 // Set up a for loop that will run ten times. Think carefully to make sure it will run ten times.
 // Inside the for loop, add your favorite number to the array two times.
 // You will need to do this on two separate lines.
 // How many numbers should be in your array when the for loop is done?
 // Print out the array and the array's length at the end and make sure you are right.
+var x = []
+var x;
+for (x = 0; x < 10; x++) {
+  console.log("run ten times")
+}
 
 
 
 // 4. Make an array that contains four foods.
+var food = [pizza, sandwhich, pasta]
 // Set up a for loop that will iterate (go through) the array.
+for
 // Do NOT use the number 4 (or 3) in your for loop.
 // Instead, use the length of the array in the condition portion (the 2nd part) of the for loop.
 // Inside the for loop, get the item that is at the current index and store it in a variable.
@@ -97,7 +114,7 @@ var items = []
 // Assuming your original array was [2,6,4,3,1,7] ...
 // When it is done running, you should see something like [4, 36, 16, 9, 1, 49]
 
-
+var =
 
 // 7. Make an array that contains six numbers. Feel free to use the same one.
 // Also make a new, separate empty array called reverse.
