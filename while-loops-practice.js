@@ -1,6 +1,6 @@
 // 1a. Use a while loop to print out numbers from 1 to 10
 // 1b. Use a while loop to print out numbers from 30 to 15
-// var count = 1;
+var count = 1;
 while (count <= 10) {
   console.log(count);
   count++;
