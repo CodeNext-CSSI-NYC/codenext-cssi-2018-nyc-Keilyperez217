@@ -35,6 +35,7 @@ countEvenNumbers()
 var sum = 0
 
 
+
 // 5a. Use a loop to make this pattern:
 // *
 // **

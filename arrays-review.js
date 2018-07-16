@@ -1,20 +1,20 @@
-// 1. Do each step below on a separate line
-// Create an array with exactly five numbers.
+// // 1. Do each step below on a separate line
+// // Create an array with exactly five numbers.
 var array = ["1", "2", "3", "4", "5"]
 // Store the second value from the array in a variable named secondValue
 var secondValue = array[1];
 // Print out the third value from the array.ar
 console.log(array[2]);
 // Change the fourth value in the array to 0.
-// array.splice(1, 2, 2, 3, 4, 5)
+array.splice(1, 2, 2, 3, 4, 5)
 array[3] = 0
 console.log(array)
 // Remove the last value from the array and store it in the variable lastVal.
-var array[1, 2, 3, 4, 5]
-var index = array.indexOf(5);
-if (index > -4) {
+var array = [1, 2, 3, 4, 5];
 
-}
+var lastVal = array.pop()
+console.log(lastVal)
+console.log(array)
 // Print out lastVal to make sure it has the value you expected.
 // Add 524 to the end of the array.
 // Add 76 to the end of the array.
@@ -26,6 +26,7 @@ if (index > -4) {
 
 
 // 2a. Create an array with five items.
+var items = []
 // Without using a for loop, print out each item in the array, one at a time.
 // Do NOT just print out the whole array with a command like console.log(arr).
 // Make sure you actually print out each item in the array one at a time.
