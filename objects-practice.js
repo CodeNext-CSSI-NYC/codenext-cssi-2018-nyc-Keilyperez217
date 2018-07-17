@@ -59,6 +59,19 @@ console.log(myVal)
 // 3. Write a function that takes a string as input and returns an object
 // // whose key-value pairs are counts of the number of times each letter appears.
 // function letterCount(str) {
+let str = "keily and sheila";
+let letterCount = {};
+
+for (i = 0; i < str.length; i++) {
+  let letters = str[i];
+  if (letterCounter[letter]) {
+    letterCounter[letter] = 1;
+  } else {
+    letterCounter[letter]++;
+  }
+}
+console.log(letterCounter);
+
 
 
 // For example, letterCount("mississippi") would return something like:
