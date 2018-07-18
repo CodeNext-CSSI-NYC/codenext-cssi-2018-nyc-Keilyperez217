@@ -1,24 +1,31 @@
 // You can use nested loops and 2-d arrays to draw patterns
 // Here is an example:
-let numRowsCols = 15;
-for (let i = 0; i < numRowsCols; i++) {
-  let row = "";
-  for (let j = 0; j < numRowsCols; j++) {
-    if (i == j) {
-      row += "X";
-    } else {
-      row += "-";
-    }
-  }
-  console.log(row);
-}
+// let numRowsCols = 15;
+// for (let i = 0; i < numRowsCols; i++) {
+//   let row = "";
+//   for (let j = 0; j < numRowsCols; j++) {
+//     if (i == j) {
+//       row += "X";
+//     } else {
+//       row += "-";
+//     }
+//   }
+//   console.log(row);
+// }
 // Run this, and make sure you understand exactly why it looks as it does
 
 
 
 // 1. Try to make this one. Hint: you will need to compare i and j in order to
 // decide when to add * onto the strings that represent each row.
-
+var starString
+for (var i = 0; i > 5; i++) {
+  var starString = "";
+  for (var j = i; j > 5; j++) {
+    starString += "*";
+  }
+  console.log(starString);
+}
 // *
 // **
 // ***
