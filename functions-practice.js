@@ -50,13 +50,22 @@ absoluteDifference(8, 6);
 // returns (not prints out, just returns) the string "Hello ____", with the name in the blank.
 function name(name1) {
   return ("hello" + name1)
+
 }
-}
+
+
 name1(keily)
 name2(samantha)
 name3(perez)
 // 4b. Call the function and store the result in a variable. Then, print out that variable.
 // Repeat this three times with different names.
+function colors() {
+  return (colors)
+}
+colors(red)
+colors(blue)
+colors(greenf)
+
 
 
 
