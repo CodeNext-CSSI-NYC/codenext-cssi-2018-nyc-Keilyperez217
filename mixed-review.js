@@ -14,18 +14,22 @@
 
 
 // 1. Write a function that takes in a number and then returns a string that
-// looks like: "7 is odd" (or even if the number is even).
+// looks like: "7 is odd" (or even if the number is even)
 function evenOdd(num) {
 
   if (num % 2 == 0) {
-    console.log("it is even");
+    console.log(num + " is even")
+    return (num + " is even")
 
   } else {
-    console.log("it is odd");
+    console.log(num + " is odd")
+    return (num + " is odd")
+
   }
 }
-console.log(evenOdd(4));
-console.log(evenOdd(5));
+
+console.log(evenOdd(7) == "7 is odd");
+console.log(evenOdd(0) == "0 is even");
 // For example, if they type in 7 it would return: "7 is odd".
 // If your function is correct, these should both print true.
 // console.log(evenOdd(7) == "7 is odd");
@@ -35,11 +39,16 @@ console.log(evenOdd(5));
 
 // 2. Write a function that takes in a number and returns the sum of all the numbers
 // from 1 to num.
-// function sumUpTo(num) {
-function sumUpTo() {
-  sumUpTo
+function sumUpTo(num) {
+  var total = 0;
+  for (var i = 1; i <= N; i++) {
+    total += 1;
+  }
+  return total;
 
 }
+console.log(sumUpTo(10) == 55);
+console.log(sumUpTo(100) == 5050);
 // }
 // // If your function is correct, these should both print true.
 // // console.log(sumUpTo(10) == 55);
