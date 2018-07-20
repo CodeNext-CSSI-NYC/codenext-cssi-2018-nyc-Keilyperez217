@@ -49,6 +49,7 @@ function sumUpTo(num) {
 }
 console.log(sumUpTo(10) == 55);
 console.log(sumUpTo(100) == 5050);
+titiaot
 // }
 // // If your function is correct, these should both print true.
 // // console.log(sumUpTo(10) == 55);
